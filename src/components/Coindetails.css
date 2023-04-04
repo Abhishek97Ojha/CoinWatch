@@ -1,0 +1,183 @@
+.coinPage-Container {
+    /* border: 2px red solid; */
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-blend-mode:darken;
+    background-position: center center;
+  }
+  
+  .coinPage-Info {
+    /* border: 2px red solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 90%;
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 20px;
+  }
+  
+  .coinPage-Info h1 {
+    /* border: 2px red solid; */
+
+    color: white;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3aafa9;
+    background-color: transparent;
+  }
+  
+  .coinPage-Icon {
+    /* border: 2px red solid; */
+
+    height: 130px;
+    margin: 15px 0px 15px 0px;
+    background-color: transparent;
+  }
+  
+  .coinPage-Data {
+      /* border: 2px blue solid; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 80%;
+    height: 40%;
+    align-items: center;
+    background-color: transparent;
+  }
+  
+  .coinPage-Row {
+/* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center;
+    /* margin: 8px 0px 8px 0px; */
+    background-color: transparent;
+  }
+  
+  .coinPage-RowData {
+    /* border: 2px red solid; */
+    width: 50%;
+
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: transparent;
+  }
+  
+  .coinPage-RowHeader {
+    /* border: 2px red solid; */
+
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: transparent;
+  }
+  
+  .red {
+    color: #f00606;
+  }
+  
+  .green {
+    color: #11d811;
+  }
+  
+  .coinPage-RouteButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    padding: 2px 10px 5px 10px;
+    background-color: #3aafa9;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .coinPage-RouteButton:active {
+    text-decoration: none;
+  }
+  
+  .coinPage-RouteButton:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.2s;
+  }
+  
+  .coinPage-Info a{
+    text-decoration: none;
+  }
+
+
+  
+@media only screen and (max-width:480px) {
+  
+  .coinPage-Info {
+    width: 350px;
+    height: 80%;
+  }
+
+  .coinPage-RowData {
+    /* border: 2px red solid; */
+    font-size: 12px;
+  }
+  
+  .coinPage-RowHeader {
+    /* border: 2px red solid; */
+  font-size: 14px;
+  }
+
+
+}
+
+@media only screen and (min-width:481px) and (max-width:650px) {
+  .coinPage-Info {
+    width: 380px;
+    height: 80%;
+  }
+
+  .coinPage-RowData {
+    /* border: 2px red solid; */
+    font-size: 13px;
+  }
+  
+  .coinPage-RowHeader {
+    /* border: 2px red solid; */
+  font-size: 15px;
+  }
+
+
+}
+
+@media only screen and (min-width:651px) and (max-width:800px) {
+
+  .coinPage-Info {
+    width: 400px;
+    height: 85%;
+  }
+
+  .coinPage-RowData {
+    /* border: 2px red solid; */
+    font-size: 13px;
+  }
+  
+  .coinPage-RowHeader {
+    /* border: 2px red solid; */
+  font-size: 15px;
+  }
+  
+}

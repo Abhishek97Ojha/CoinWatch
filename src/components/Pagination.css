@@ -1,0 +1,23 @@
+.pages-btn{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.pages-btn button{
+    padding: 8px 13px;
+    font-size: 15px;
+    margin: 0.8rem;
+    border: 2px white solid;
+    background-color: #1a1a1c;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.active{
+    background-color:#3aafa9;
+
+}
