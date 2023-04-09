@@ -42,9 +42,7 @@
   }
   
   .coinPage-Data {
-      /* border: 2px blue solid; */
-
-    display: flex;
+      display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 80%;

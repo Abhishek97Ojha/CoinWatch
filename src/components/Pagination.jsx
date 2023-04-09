@@ -27,9 +27,6 @@ console.log(currentpage)
             })
         }
 
-        {/* <button className='pagenumber-btn'>1</button>
-        <button className='pagenumber-btn'>1</button> */}
-
     </div>
     </>
   )

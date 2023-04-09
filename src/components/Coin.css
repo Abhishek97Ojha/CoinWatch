@@ -1,76 +1,72 @@
+
 .coin-container {
-  width: 80%;
-  height: 15vh;
+  width: 30%;
+  height: 70vh;
   display: flex;
   justify-content: center;
   align-items: center;
   /* border: 2px red solid; */
-
+  margin: 1rem;
 }
 
 .coin-row {
-  /* border: 2px blue solid; */
+  border: 2px solid;
+  border-radius: 15px;
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #d7d7d7;
+  flex-direction: column;
 }
 
 .coin {
-  width: 30%;
-  height: 80%;
+  width: 100%;
+  height: 65%;
   /* border: 2px white solid; */
   display: flex;
   align-items: center;
-  padding-right: 24px;
+  flex-direction: column;
+  border-radius: 15px;
 }
 
-.coin h1 {
-  font-size: 16px;
-  width: 50%;
+.coin >h2 {
+  /* border: 2px solid red; */
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+  margin: .3rem 0;
 }
 
-.coin img {
-  height: 30px;
-  width: 30px;
-  margin-right: 10px;
+.coin >.image{
+  height: 70%;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.coin >.image > img{
+  width: 80%;
+  height: 90%;
+}
 .coin-symbol {
   text-transform: uppercase;
 }
 
 .coin-data {
   /* border: 2px green solid; */
-  width: 70%;
-  height: 80%;
+  width: 100%;
+  height: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
+}
+
+.coin-data>p{
+  padding-left: 3rem;
   width: 100%;
-}
-
-.coin-price {
-  width: 15%;
-
-}
-
-.coin-volume {
-  width: 20%;
-
-}
-
-.coin-marketcap {
-
-  width: 35%;
-
-}
-
-.coin-percent {
-  width: 10%;
-
+  /* border: 2px solid red; */
 }
 
 .red {
@@ -81,22 +77,18 @@
   color: #118d11;
 }
 
-.coin-btn {
-  /* border: 2px green solid; */
-
-  width: 10%;
-  height: 50%;
-  /* padding: 0px 10px 0px 10px; */
+.coin-data>.coin-btn {
+  width: 100%;
+  height: 25%;
   background-color: #3aafa9;
-  border: none;
-  border-radius: 10px;
+  border-radius: 15px;
   color: black;
-  font-weight: 500;
-  font-size: 14px;
+  font-size: large;
   cursor: pointer;
+  border: none;
 }
 
-.coin-btn:hover {
+.coin-data>.coin-btn:hover {
   transform: scale(1.1);
   transition: all ease-in-out 0.2s;
 }
